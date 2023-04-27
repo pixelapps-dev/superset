@@ -121,3 +121,6 @@ try:
     )
 except ImportError:
     logger.info("Using default Docker config...")
+
+# superset_config.py
+SECRET_KEY = 'aNLacSIvnYXjmKdFfNmDP/6z0nT+2wsDKPvY89hIU0syif7lnjZQ65V8'
